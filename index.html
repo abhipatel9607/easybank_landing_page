@@ -42,28 +42,7 @@
 				</ul>
 			</nav>
 			<button class="btn btn_header">Request Invite</button>
-			<button class="header_toggle_btn" id="htb"></button>
-			<!-- <section class="modal modal_inactive" id="modal">
-				<nav class="modal_nav">
-					<ul class="modal_nav_ul">
-						<li class="modal_nav_item">
-							<a class="modal_nav_link" href="/">Home</a>
-						</li>
-						<li class="modal_nav_item">
-							<a class="modal_nav_link" href="/">About</a>
-						</li>
-						<li class="modal_nav_item">
-							<a class="modal_nav_link" href="/">Contact</a>
-						</li>
-						<li class="modal_nav_item">
-							<a class="modal_nav_link" href="/">Blog</a>
-						</li>
-						<li class="modal_nav_item">
-							<a class="modal_nav_link" href="/">Carers</a>
-						</li>
-					</ul>
-				</nav>
-			</section> -->
+			<button class="header_toggle_btn" id="htb">hello</button>
 		</header>
 		<div class="hero">
 			<div class="hero_text_section">
@@ -78,11 +57,12 @@
 				</p>
 				<button class="btn btn_header">Request Invite</button>
 			</div>
-			<div class="img_container" width="100%">
+
+			<div class="bg_img_container">
 				<img
-					class="intro_png_mockup"
+					class="mockup_intro_png"
 					src="./images/image-mockups.png"
-					alt="Mockups png"
+					alt="mockup_intro_png"
 				/>
 			</div>
 		</div>
@@ -147,74 +127,125 @@
 		<div class="artical_section container">
 			<h2 class="heading_secondary mb_5">Latest Articles</h2>
 			<div class="articals_container flex">
-				<div class="artical">
+				<div class="artical_box">
 					<img
 						class="artical_img"
 						src="./images/image-currency.jpg"
 						alt="image-currency"
 					/>
-					<p class="author_name">By Claire Robinson</p>
-					<h4 class="artical_title">
-						Receive money in any currency with no fees
-					</h4>
-					<p class="artical_para">
-						The world is getting smaller and we’re becoming more mobile. So why
-						should you be forced to only receive money in a single …
-					</p>
+					<div class="artical_context">
+						<p class="author_name">By Claire Robinson</p>
+						<h4 class="artical_title">
+							Receive money in any currency with no fees
+						</h4>
+						<p class="artical_para">
+							Our simple budgeting feature allows you to separate out your
+							spending and set realistic limits each month. That means you …
+						</p>
+					</div>
 				</div>
-				<div class="artical">
+				<div class="artical_box">
 					<img
 						class="artical_img"
 						src="./images/image-plane.jpg"
 						alt="image-plane"
 					/>
-					<p class="author_name">By Wilson Hutton</p>
-					<h4 class="artical_title">
-						Treat yourself without worrying about money
-					</h4>
-					<p class="artical_para">
-						Our simple budgeting feature allows you to separate out your
-						spending and set realistic limits each month. That means you …
-					</p>
+					<div class="artical_context">
+						<p class="author_name">By Wilson Hutton</p>
+						<h4 class="artical_title">
+							Treat yourself without worrying about money
+						</h4>
+						<p class="artical_para">
+							Our simple budgeting feature allows you to separate out your
+							spending and set realistic limits each month. That means you …
+						</p>
+					</div>
 				</div>
-				<div class="artical">
+				<div class="artical_box">
 					<img
 						class="artical_img"
 						src="./images/image-restaurant.jpg"
 						alt="image-restaurant"
 					/>
-					<p class="author_name">By Wilson Hutton</p>
-					<h4 class="artical_title">Take your Easybank card wherever you go</h4>
-					<p class="artical_para">
-						We want you to enjoy your travels. This is why we don’t charge any
-						fees on purchases while you’re abroad. We’ll even show you …
-					</p>
+					<div class="artical_context">
+						<p class="author_name">By Wilson Hutton</p>
+						<h4 class="artical_title">
+							Take your Easybank card wherever you go
+						</h4>
+						<p class="artical_para">
+							We want you to enjoy your travels. This is why we don’t charge any
+							fees on purchases while you’re abroad. We’ll even show you …
+						</p>
+					</div>
 				</div>
-				<div class="artical">
+				<div class="artical_box">
 					<img
 						class="artical_img"
 						src="./images/image-confetti.jpg"
 						alt="image-confetti"
 					/>
-					<p class="author_name">By Claire Robinson</p>
-					<h4 class="artical_title">
-						Our invite-only Beta accounts are now live!
-					</h4>
-					<p class="artical_para">
-						After a lot of hard work by the whole team, we’re excited to launch
-						our closed beta. It’s easy to request an invite through the site ...
-					</p>
+					<div class="artical_context">
+						<p class="author_name">By Claire Robinson</p>
+						<h4 class="artical_title">
+							Our invite-only Beta accounts are now live!
+						</h4>
+						<p class="artical_para">
+							After a lot of hard work by the whole team, we’re excited to
+							launch our closed beta. It’s easy to request an invite through the
+							site ...
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>
-		<!-- <h1>Hello</h1> -->
-		<!--  
-		    
-		    
-		    
-		        About Us Contact Blog Careers
-		Support Privacy Policy Request Invite © Easybank. All Rights Reserved -->
-
+		<footer class="footer_section">
+			<img src="./images/logo_white.svg" alt="Footer-logo" />
+			<div class="social_media_links">
+				<a href="#">
+					<img
+						src="./images/icon-facebook.svg"
+						alt="logo_fb"
+						class="footer_logo"
+					/>
+				</a>
+				<a href="#">
+					<img
+						class="footer_logo"
+						src="./images/icon-youtube.svg"
+						alt="logo_youtube"
+					/>
+				</a>
+				<a href="#">
+					<img
+						class="footer_logo"
+						src="./images/icon-twitter.svg"
+						alt="logo_twitter"
+					/>
+				</a>
+				<a href="#">
+					<img
+						class="footer_logo"
+						src="./images/icon-pinterest.svg"
+						alt="logo_pinterest"
+					/>
+				</a>
+				<a href="#">
+					<img
+						class="footer_logo"
+						src="./images/icon-instagram.svg"
+						alt="logo_instagram"
+					/>
+				</a>
+			</div>
+			<a class="footer_link footer_about_us" href="#">About Us</a>
+			<a class="footer_link footer_contact" href="#">Contact</a>
+			<a class="footer_link footer_blog" href="#">Blog</a>
+			<a class="footer_link footer_career" href="#">Career</a>
+			<a class="footer_link footer_support" href="#">Support</a>
+			<a class="footer_link footer_privacy" href="#">Privacy Policy</a>
+			<button class="btn btn_footer">Request Invite</button>
+			<p class="copyright_text">© Easybank. All Rights Reserved</p>
+		</footer>
 		<!-- <div class="attribution">Coded by <a href="#">Your Name Here</a>.</div> -->
 	</body>
 </html>
