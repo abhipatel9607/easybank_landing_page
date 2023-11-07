@@ -1,0 +1,24 @@
+.container {
+	padding: 13vh 10vw;
+}
+
+.mb_5 {
+	margin-bottom: 5vh;
+}
+.heading_secondary {
+	font-size: 3.2rem;
+	color: #2d2d45;
+	margin-bottom: 5vh;
+}
+.para_primary {
+	font-size: 1.5rem;
+	color: #98979c;
+	margin-bottom: 4vh;
+	line-height: 1.6;
+}
+.flex {
+	display: flex;
+	justify-content: space-around;
+	gap: 2vw;
+	padding-top: 6vh;
+}
