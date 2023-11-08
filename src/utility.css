@@ -1,24 +1,58 @@
+/* To set Alignment */
 .container {
-	padding: 13vh 10vw;
+	margin: 0 auto;
+	width: 85%;
 }
 
-.mb_5 {
-	margin-bottom: 5vh;
+.section {
+	padding: 10vh 0;
 }
-.heading_secondary {
-	font-size: 3.2rem;
-	color: #2d2d45;
-	margin-bottom: 5vh;
-}
+
+/* Heading and Paragraph Styles */
 .para_primary {
 	font-size: 1.5rem;
-	color: #98979c;
-	margin-bottom: 4vh;
+	color: var(--light_gray);
 	line-height: 1.6;
 }
+
+.heading_primary {
+	font-size: 4.2rem;
+	color: var(--primary_color);
+	line-height: 1.1;
+}
+
+.heading_secondary {
+	font-size: 3.2rem;
+	color: var(--primary_color);
+}
+
+.heading_tertiary {
+	font-size: 2rem;
+	color: var(--primary_color);
+}
+
+/* Button Styles */
+.btn {
+	font-size: 1.5rem;
+	border: none;
+	color: var(--btn_color);
+	padding: 1.3rem 2.4rem;
+	cursor: pointer;
+	font-weight: 700;
+	border-radius: 34px;
+	background: linear-gradient(to left, #32b8cf, #2ad461);
+}
+
+.btn:hover {
+	background: linear-gradient(to left, #82d3e3, #7ee69f);
+}
+
+/*  */
+.mb_5 {
+	margin-bottom: 4vh;
+}
+
 .flex {
 	display: flex;
-	justify-content: space-around;
-	gap: 2vw;
-	padding-top: 6vh;
+	justify-content: space-between;
 }
