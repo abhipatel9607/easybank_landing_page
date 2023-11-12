@@ -4,8 +4,6 @@
 
 This is a landing page for Easybank, a next-generation digital banking service. It provides an overview of Easybank's features and services.
 
-![Easybank Landing Page](./images/Screenshot from 2023-11-08 00-24-47.png)
-
 ## Table of Contents
 
 - [See Project Live](#demo)
@@ -15,7 +13,7 @@ This is a landing page for Easybank, a next-generation digital banking service. 
 
 ## See Project Live
 
-You can see EasyBank Landing Page, it's live in netlify [Click here](https://easybank-landing-page-abhishek.netlify.app).
+You can see EasyBank Landing Page directly, it's live in netlify [Click here](https://easybank-landing-page-abhishek.netlify.app).
 
 ## Getting Started
 
