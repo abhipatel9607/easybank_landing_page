@@ -389,6 +389,7 @@ body {
   }
 
   .bg_img_container {
+    background-position: right top;
     background-size: 75%;
   }
 
